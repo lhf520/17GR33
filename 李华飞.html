@@ -1,0 +1,64 @@
+<html>
+    <head>
+       <title>注册页面</title>
+    </head>
+    <body>
+        <form name=fm>
+        
+    	<table border="1" align=center>
+			<tr>
+				<td colspan="2">
+				<p align="center"><b>证券调查示例</b></td>
+			</tr>
+			<tr>
+				<td width="30%" align="right">投资经验：</td>
+				<td width="68%">
+				   <input type=radio name=jy value=xs checked>新手
+				   <input type=radio name=jy value=zj>中级
+				   <input type=radio name=jy value=zhj>专家
+				</td>
+			</tr>
+			<tr>
+				<td width="30%" align="right">投资方式：</td>
+				<td width="68%">
+				   <input type=checkbox name=fs value="gp">股票
+				   <input type=checkbox name=fs value="qh">期货
+                   <input type=checkbox name=fs value="jj">基金
+
+				</td>
+			</tr>
+			<tr>
+				<td width="30%" align="right">购买股票的方式：</td>
+				<td width="68%">
+				   <select name=gmfs>
+				      <option value="ws">网上</option>
+				      <option value="tel">手机</option>
+				      <option value="jyt">交易厅</option>
+			       </select>
+				</td>
+			</tr>
+			<tr>
+				<td width="30%" align="right">今天关注的股票：</td>
+				<td width="68%">
+				   <input type=text name=jtgz value="">
+				   <font color=red>*</font>　
+				</td>
+			</tr>
+			<tr>
+				<td width="30%" align="right">你对投资者的意见：</td>
+				<td width="68%">
+				  <textarea name=yijian rows=5 cols=30></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td width="98%" align="center" colspan="2">
+				 <input type=submit value="提交">
+				 <input type=reset value="撤销">
+				　</td>
+			</tr>
+		</table>
+	
+      </form>	
+ </body>
+
+</html>
